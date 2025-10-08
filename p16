@@ -1,0 +1,10 @@
+import math
+area = float(input("Digite o tamanho da área a ser pintada (em m²): "))
+litros_necessarios = area / 3
+latas = math.ceil(litros_necessarios / 18)
+preco_total = latas * 80
+print("\n--- Orçamento da Tinta ---")
+print(f"Área a ser pintada         : {area} m²")
+print(f"Litros de tinta necessários: {litros_necessarios:.2f} L")
+print(f"Latas de tinta a comprar   : {latas}")
+print(f"Preço total                : R$ {preco_total:.2f}")

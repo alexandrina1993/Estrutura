@@ -1,0 +1,3 @@
+gigabytes = float(input("Digite o tamanho do arquivo em Gigabytes (GB): "))
+megabytes = gigabytes * 1024
+print(f"{gigabytes} GB equivalem a {megabytes} MB.")

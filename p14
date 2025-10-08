@@ -1,0 +1,11 @@
+limite = 50.0
+multa_por_quilo = 4.0
+peso = float(input("Digite o peso de peixes (em kg): "))
+if peso > limite:
+    excesso = peso - limite
+    multa = excesso * multa_por_quilo
+else:
+    excesso = 0
+    multa = 0
+print("\n--- Relatório do Pescador João ---")
+print(f"Peso informado: { peso} kg")
